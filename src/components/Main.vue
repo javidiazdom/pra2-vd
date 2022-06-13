@@ -98,7 +98,7 @@ export default {
     },
     datasetsBigChart () {
       return [{
-        label: 'Número total de pasajeros llegados a Canarias entre 2011 y febrero de 2022',
+        label: 'Total de viajeros interinsulares entre 2011 y 2022',
         data: this.totalesInterinsular.map(row => parseInt(row.Valor)),
         borderColor: '#fd151b',
         pointBackgroundColor: '#fd151b'
