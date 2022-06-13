@@ -5,6 +5,7 @@
       <LineChart :labels = "labelsBigChart" :dataSet = "datasetsBigChart"/>
     </div>
     <div class = "card">
+      <h3>Total de entradas de viajeros interinsulares: 2019 - 2022 (Por isla)</h3>
       <LineChart :labels = "labelsTotalPorIslas" :dataSet = "datasetsTotalPorIslas"/>
     </div>
 
